@@ -4,13 +4,13 @@ import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.c
 
 // ✅ Use your exact Firebase configuration (from your console)
 const firebaseConfig = {
-    apiKey: "AIzaSyB5VyoTwvMuUBUY9bfCnWvDagG3Z_kPdXU",
-  authDomain: "alpha-413814.firebaseapp.com",
-  projectId: "alpha-413814",
-  storageBucket: "alpha-413814.firebasestorage.app",
-  messagingSenderId: "1094932957286",
-  appId: "1:1094932957286:web:2401fb04623b75c433c5a7",
-  measurementId: "G-SE064H34KE"
+    apiKey: "AIzaSyC_eUNac7NmbhZjjGBni-vhb1IiPeU-tFM",
+  authDomain: "learned-trilogy-470903-r4.firebaseapp.com",
+  projectId: "learned-trilogy-470903-r4",
+  storageBucket: "learned-trilogy-470903-r4.firebasestorage.app",
+  messagingSenderId: "764207091261",
+  appId: "1:764207091261:web:9290672f78910e1afce454",
+  measurementId: "G-RLFXHE8XEJ"
 };
 
 // ✅ Initialize Firebase and Firestore
@@ -37,4 +37,5 @@ async function readUserData() {
 
 addUserData();
 readUserData();
+
 
